@@ -3,6 +3,3 @@ def reverse_each_word(array)
   new_array.collect {|x| x.reverse!}
   return new_array.join(" ")
 end
-  
-  
-  array.split(" ").collect {|x| x.reverse!}.join
