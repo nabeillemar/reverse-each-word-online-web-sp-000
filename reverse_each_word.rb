@@ -5,4 +5,4 @@ def reverse_each_word(array)
 end
   
   
-  array.split(" ")
+  array.split(" ").collect
