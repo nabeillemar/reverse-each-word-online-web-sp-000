@@ -5,4 +5,4 @@ def reverse_each_word(array)
 end
   
   
-  array.split(" ").collect {|x| x.reverse!
+  array.split(" ").collect {|x| x.reverse!}.
